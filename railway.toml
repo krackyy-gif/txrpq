@@ -1,0 +1,7 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "node \"Ticket System/index.js\""
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 5
